@@ -1,4 +1,3 @@
-import { element } from "prop-types";
 import React, { Component } from "react";
 import NewsItem from "./NewsItem";
 
@@ -97,7 +96,7 @@ export class News extends Component {
       author: "Kris Holt",
       title: "Toyota’s latest EV concepts include sports cars and a pickup",
       description:
-        "Toyota now aims to roll out 30 electric vehicles by 2030, expanding on its plan to sell 15 fully electric models by 2025. It gave a taste of the future by previewing a broad range of new EV.",
+        "Toyota now aim to roll out 30 electric vehicles by 2030, expanding on its plan to sell 15 fully electric models by 2025. It gave a taste of the future by previewing a broad range of new EV.",
       url:
         "https://techcrunch.com/2021/12/14/toyotas-latest-ev-concepts-include-sports-cars-and-a-pickup/",
       urlToImage:
@@ -164,18 +163,18 @@ export class News extends Component {
         <h2> News Monkey top headlines</h2>
         this is a news component
         <div className="row">
-          {this.state.articles.map((element) => {
-            return (
-              <div className="col-md-3" key={element.url}>
-                <NewsItem
-                  title={element.title.slice(0, 40)}
-                  description={element.description.slice(0, 80)}
-                  url={element.urlToImage}
-                  newsUrl={element.url}
-                />
-              </div>
-            );
-          })}
+          <div className="col-md-3">
+            <NewsItem title="Elon" decription="mydes" url="" />
+          </div>
+          <div className="col-md-3">
+            <NewsItem title="Elon" decription="mydes" />
+          </div>
+          <div className="col-md-3">
+            <NewsItem title="Elon" decription="mydes" />
+          </div>
+          <div className="col-md-3">
+            <NewsItem title="Elon" decription="mydes" />
+          </div>
         </div>
       </div>
     );
