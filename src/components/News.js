@@ -146,7 +146,7 @@ export class News extends Component {
         "https://techcrunch.com/wp-content/uploads/2017/09/pinterest-app-icon-ios.jpg?w=710",
       publishedAt: "2021-12-14T15:21:38Z",
       content:
-        "Pinterest is the latest social media platform to roll out the option to allow users to reply to comments with videos. Users can now do so via the company’s Idea Pins feature. Pinterest launched Idea … [+2234 chars]"
+        "Pinterest is the latest social media platform to roll out the option to allow users to reply to comments with videos. Users can now do so via the company’s Idea Pins feature. Pinterest launched Idea … [+22367 chars]"
     }
   ];
   constructor() {
